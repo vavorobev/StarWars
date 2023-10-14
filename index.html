@@ -1,16 +1,43 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Star Wars</title>
-  <link rel="'stylesheet" href="style.css">
-  <link rel="'stylesheet" href="normalize.css">
-  <script src="./src/index.js" defer></script>
-</head>
-<body>
-  <header class="header">
-  </header>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт фильма "Звездные войны"</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="/img/logo.svg" alt="" class="logo header_logo">
+        <nav class="nav">
+          <a href="#" class="nav_link">Билеты</a>
+          <a href="#" class="nav_link">О фильме</a>
+          <a href="#" class="nav_link">Трейлеры</a>
+          <a href="#" class="nav_link">Отзывы</a>
+        </nav>
+        <!-- /.nav -->
+      </header>
+      <!-- /.header -->
+      <main class="main">
+        <div class="promo">
+          <span class="promo_subtitle">Эпизод IX</span>
+          <h1 class="promo_title">Скайуокер. Восход </h1>
+          <p class="promo_description">Фильм завершает невероятную историю семьи Скайуокеров, длящуюся уже более сорока лет, 
+            и обещает дать ответы на все загадки из предыдущих серий. Зрителя ожидают старые 
+            и новые герои, уникальные миры, увлекательные путешествия на край Галактики 
+            и грандиозный финал фантастической саги
+          </p>
+          <span class="promo_premier">Премьера</span>
+          <span class="promo_date">19 декабря 2019</span>
+          <button class="button-play promo_button">Смотреть трейлер</button>
+        </div>
+        <!-- /.promo -->
+      </main>
+      <!-- /.main -->
+    </div>
+    <!-- /.container -->
+  </body>
 </html>

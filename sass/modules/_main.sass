@@ -38,13 +38,23 @@
   font-size: 14px
   line-height: 16px
   &::after
-    position: absolute
     content: ""
+    position: absolute
     width: 65px
     height: 65px
-    background-color: #ffffff
+    background: #ffffff url('img/button-play.svg') center no-repeat
+    border-radius: 50%
     right: 0
     top: 0
+  &::before
+    content: ""
+    width: 81px
+    height: 81px
+    background-color: rgba(255, 255, 255, 0.3)
     border-radius: 50%
-    border: 8px solix rgba(255, 255, 255, 0.3)
+    position: absolute
+    right: -8px
+    top: -8px
+
+    
     

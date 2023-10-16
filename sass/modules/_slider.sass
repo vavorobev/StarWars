@@ -1,0 +1,39 @@
+
+.slider
+  display: flex
+  flex-wrap: wrap
+  &_item
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 250px
+    min-height: 200px
+    margin-right: 20px
+    margin-bottom: 20px
+    padding: 30px
+    border-radius: 10px
+    background: linear-gradient(0deg, rgba(80, 80, 80, 0.86) 0%, rgba(80, 80, 80, 0.86) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat
+    box-shadow: 0px 10px 26px 0px rgba(0, 0, 0, 0.25)
+    transition: background 0.2s
+    &:hover
+      border-radius: 10px
+      background: linear-gradient(0deg, rgba(64, 101, 255, 0.86) 0%, rgba(64, 101, 255, 0.86) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat
+      box-shadow: 0px 10px 26px 0px rgba(0, 0, 0, 0.25)
+
+.episode
+  &-4
+    background: url("../img/ep4.jpeg") center / cover
+  &-5  
+    background: url("../img/ep5.jpeg") center / cover
+  &-6 
+    background: url("../img/ep6.jpeg") center / cover
+  &-1
+    background: url("../img/ep1.jpeg") center / cover
+  &-2
+    background: url("../img/ep2.jpg") center / cover
+  &-3
+    background: url("../img/ep3.jpg") center / cover
+  &-7
+    background: url("../img/ep7.jpg") center / cover
+  &-8
+    background: url("../img/ep8.jpg") center / cover
